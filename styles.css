@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
+* {
+	font-family: 'Electrolize', sans-serif;
+	list-style-type: none;
+	font-size: 50px;
+}
+
+#app, #list {
+	text-align: center;
+}
+
+
+
