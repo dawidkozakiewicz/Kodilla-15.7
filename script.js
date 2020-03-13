@@ -1,11 +1,10 @@
 let timeTable = [];
 
 class Stopwatch extends React.Component {
-  constructor(display) {
-    super(display);
+  constructor(props) {
+    super(props);
     this.state = {
       running: false,
-      display: display,
       times: {
         minutes: 0,
         seconds: 0,
@@ -122,5 +121,4 @@ class Stopwatch extends React.Component {
   }
 }
 
-var element = React.createElement(Stopwatch);
-ReactDOM.render(element, document.getElementById("app"));
+ReactDOM.render(<Stopwatch />, document.getElementById("app"));
